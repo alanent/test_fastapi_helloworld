@@ -1,1 +1,2 @@
-Start up command : gunicorn --bind=0.0.0.0 --workers=4
+Pile : python 3.9
+Start up command : gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app
