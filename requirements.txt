@@ -1,5 +1,3 @@
 fastapi
 gunicorn
-unicorn
-uvloop
-httptools
+uvicorn
