@@ -5,4 +5,4 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": tf.__version__}
+    return {"message": "Hello World"}
