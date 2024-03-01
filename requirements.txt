@@ -1,3 +1,4 @@
 fastapi
 gunicorn
 uvicorn
+tensorflow-cpu==2.15.0
